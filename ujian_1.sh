@@ -1,6 +1,7 @@
 #!/bin/bash
 angka=
 nama=
+clear
 echo -n "Masukan nama : "
 read nama
 echo -n "Masukan jumlalh perulangan : "
