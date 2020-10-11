@@ -1,13 +1,14 @@
 #!/bin/bash
 angka=
 nama=
-echo "Masukan nama : "
+echo -n "Masukan nama : "
 read nama
-echo "Masukan jumlalh perulangan : "
+echo -n "Masukan jumlalh perulangan : "
 read angka
+echo " "
 for (( i=1; i<="$angka"; i++ ))
 do
-     echo "Halo, $nama"
+     echo "$i) Halo, $nama"
  done
  echo " "
  echo "Nama anda di ulang sebanyak $angka kali"
