@@ -9,7 +9,7 @@ read angka
 echo " "
 for (( i=1; i<="$angka"; i++ ))
 do
-     echo "$i) Halo, $nama"
- done
- echo " "
- echo "Nama anda di ulang sebanyak $angka kali"
+    echo "$i) Halo, $nama"
+done
+echo " "
+echo "Nama anda di ulang sebanyak $angka kali"
